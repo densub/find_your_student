@@ -1,0 +1,127 @@
+.MainDiv {
+    position:fixed;
+    font-family: "Raleway", sans-serif;
+    background-color: #EFEFEF;
+    display: flex;
+    justify-content: center;
+    overflow:hidden;
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    position:absolute;
+    padding-top: 10%;
+}
+input {
+    border: none;
+    width: 100%;
+    padding-top: 10px;
+    padding-bottom: 7px;
+    border-bottom: 1px solid #EFEFEF;
+}
+input:focus {
+    outline: none;
+    border-color: black;
+}
+h2 {
+    text-transform: uppercase;
+    font-weight: bolder;
+   /* font-size: larger;
+    */
+}
+.DataView {
+    position: relative;
+    padding: 10px;
+    height: 50%;
+    width: 40%;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    box-shadow:pink;
+    background-color:white;
+    overflow-y: scroll;
+    border: 1px white;
+    border-radius: 20px;
+    overflow-y: scroll;
+    padding-right: 17px;
+    box-sizing: content-box;
+   /* grid-row:auto;
+    */
+}
+.Description {
+    font-size: small;
+    text-align:left;
+    margin-left: 20px;
+    color: rgb(41, 40, 40);
+}
+table {
+    width:100%;
+    border-collapse:collapse;
+}
+.expand-contract {
+    display: flex;
+    justify-content: right;
+    font-size: 60px;
+    color:grey;
+    font-weight: bold;
+    opacity: 0.8;
+}
+.expand-contract:hover {
+    cursor: pointer;
+    color: black;
+}
+.tag {
+    background-color: #E0E0E0;
+    color: black;
+    padding: 8px 12px;
+    border-radius: 6px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+}
+tr.border-bottom {
+    border-bottom: 1pt solid #EFEFEF;
+    width: 100%;
+}
+.tagInput {
+    width: 25% !important;
+    border-spacing: 5px 1rem;
+}
+img {
+    width: 125px;
+    height: 125px;
+    border-radius: 50%;
+}
+.MarginTopBottom{
+    margin-top: 2px;
+    margin-bottom: 3px;
+}
+.loader {
+    position: absolute;
+    left: 45%;
+    top: 35%;
+    border: 16px solid #f3f3f3;
+    border-radius: 50%;
+    border-top: 16px solid #3498db;
+    width: 120px;
+    height: 120px;
+    -webkit-animation: spin 2s linear infinite;
+    animation: spin 2s linear infinite;
+}
+@-webkit-keyframes spin {
+    0% {
+        -webkit-transform: rotate(0deg);
+   }
+    100% {
+        -webkit-transform: rotate(360deg);
+   }
+}
+@keyframes spin {
+    0% {
+        transform: rotate(0deg);
+   }
+    100% {
+        transform: rotate(360deg);
+   }
+}

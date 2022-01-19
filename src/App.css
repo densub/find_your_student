@@ -1,0 +1,21 @@
+::-webkit-scrollbar {
+    width: 0;  
+    background: transparent; 
+}
+
+::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+    font-family: "Raleway", sans-serif;
+    font-size: small;
+    position: absolute;
+  }
+  ::-moz-placeholder { /* Firefox 19+ */
+    font-family: "Raleway", sans-serif;
+  }
+  :-ms-input-placeholder { /* IE 10+ */
+    font-family: "Raleway", sans-serif;
+  }
+  :-moz-placeholder { /* Firefox 18- */
+    font-family: "Raleway", sans-serif;
+  }
+
+  
